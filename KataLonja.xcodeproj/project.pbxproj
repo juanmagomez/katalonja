@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6A00E115D03B33005BB326 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A00E015D03B33005BB326 /* Cocoa.framework */; };
+		CD6A00EB15D03B33005BB326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6A00E915D03B33005BB326 /* InfoPlist.strings */; };
+		CD6A00ED15D03B33005BB326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A00EC15D03B33005BB326 /* main.m */; };
+		CD6A00F115D03B33005BB326 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD6A00EF15D03B33005BB326 /* Credits.rtf */; };
+		CD6A00F415D03B33005BB326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A00F315D03B33005BB326 /* AppDelegate.m */; };
+		CD6A00F715D03B33005BB326 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6A00F515D03B33005BB326 /* MainMenu.xib */; };
+		CD6A00FF15D03B33005BB326 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A00FE15D03B33005BB326 /* SenTestingKit.framework */; };
+		CD6A010015D03B33005BB326 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A00E015D03B33005BB326 /* Cocoa.framework */; };
+		CD6A010815D03B33005BB326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6A010615D03B33005BB326 /* InfoPlist.strings */; };
+		CD6A010B15D03B33005BB326 /* KataLonjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A010A15D03B33005BB326 /* KataLonjaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6A010115D03B33005BB326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6A00D315D03B33005BB326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6A00DB15D03B33005BB326;
+			remoteInfo = KataLonja;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6A00DC15D03B33005BB326 /* KataLonja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataLonja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A00E015D03B33005BB326 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD6A00E315D03B33005BB326 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD6A00E415D03B33005BB326 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD6A00E515D03B33005BB326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD6A00E815D03B33005BB326 /* KataLonja-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KataLonja-Info.plist"; sourceTree = "<group>"; };
+		CD6A00EA15D03B33005BB326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6A00EC15D03B33005BB326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6A00EE15D03B33005BB326 /* KataLonja-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KataLonja-Prefix.pch"; sourceTree = "<group>"; };
+		CD6A00F015D03B33005BB326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD6A00F215D03B33005BB326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD6A00F315D03B33005BB326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6A00F615D03B33005BB326 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD6A00FD15D03B33005BB326 /* KataLonjaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataLonjaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A00FE15D03B33005BB326 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD6A010515D03B33005BB326 /* KataLonjaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KataLonjaTests-Info.plist"; sourceTree = "<group>"; };
+		CD6A010715D03B33005BB326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6A010915D03B33005BB326 /* KataLonjaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KataLonjaTests.h; sourceTree = "<group>"; };
+		CD6A010A15D03B33005BB326 /* KataLonjaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KataLonjaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6A00D915D03B33005BB326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A00E115D03B33005BB326 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A00F915D03B33005BB326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A00FF15D03B33005BB326 /* SenTestingKit.framework in Frameworks */,
+				CD6A010015D03B33005BB326 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6A00D115D03B33005BB326 = {
+			isa = PBXGroup;
+			children = (
+				CD6A00E615D03B33005BB326 /* KataLonja */,
+				CD6A010315D03B33005BB326 /* KataLonjaTests */,
+				CD6A00DF15D03B33005BB326 /* Frameworks */,
+				CD6A00DD15D03B33005BB326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6A00DD15D03B33005BB326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A00DC15D03B33005BB326 /* KataLonja.app */,
+				CD6A00FD15D03B33005BB326 /* KataLonjaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6A00DF15D03B33005BB326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A00E015D03B33005BB326 /* Cocoa.framework */,
+				CD6A00FE15D03B33005BB326 /* SenTestingKit.framework */,
+				CD6A00E215D03B33005BB326 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6A00E215D03B33005BB326 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A00E315D03B33005BB326 /* AppKit.framework */,
+				CD6A00E415D03B33005BB326 /* CoreData.framework */,
+				CD6A00E515D03B33005BB326 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD6A00E615D03B33005BB326 /* KataLonja */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A00F215D03B33005BB326 /* AppDelegate.h */,
+				CD6A00F315D03B33005BB326 /* AppDelegate.m */,
+				CD6A00F515D03B33005BB326 /* MainMenu.xib */,
+				CD6A00E715D03B33005BB326 /* Supporting Files */,
+			);
+			path = KataLonja;
+			sourceTree = "<group>";
+		};
+		CD6A00E715D03B33005BB326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A00E815D03B33005BB326 /* KataLonja-Info.plist */,
+				CD6A00E915D03B33005BB326 /* InfoPlist.strings */,
+				CD6A00EC15D03B33005BB326 /* main.m */,
+				CD6A00EE15D03B33005BB326 /* KataLonja-Prefix.pch */,
+				CD6A00EF15D03B33005BB326 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6A010315D03B33005BB326 /* KataLonjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A010915D03B33005BB326 /* KataLonjaTests.h */,
+				CD6A010A15D03B33005BB326 /* KataLonjaTests.m */,
+				CD6A010415D03B33005BB326 /* Supporting Files */,
+			);
+			path = KataLonjaTests;
+			sourceTree = "<group>";
+		};
+		CD6A010415D03B33005BB326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A010515D03B33005BB326 /* KataLonjaTests-Info.plist */,
+				CD6A010615D03B33005BB326 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6A00DB15D03B33005BB326 /* KataLonja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A010E15D03B33005BB326 /* Build configuration list for PBXNativeTarget "KataLonja" */;
+			buildPhases = (
+				CD6A00D815D03B33005BB326 /* Sources */,
+				CD6A00D915D03B33005BB326 /* Frameworks */,
+				CD6A00DA15D03B33005BB326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataLonja;
+			productName = KataLonja;
+			productReference = CD6A00DC15D03B33005BB326 /* KataLonja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6A00FC15D03B33005BB326 /* KataLonjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A011115D03B33005BB326 /* Build configuration list for PBXNativeTarget "KataLonjaTests" */;
+			buildPhases = (
+				CD6A00F815D03B33005BB326 /* Sources */,
+				CD6A00F915D03B33005BB326 /* Frameworks */,
+				CD6A00FA15D03B33005BB326 /* Resources */,
+				CD6A00FB15D03B33005BB326 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6A010215D03B33005BB326 /* PBXTargetDependency */,
+			);
+			name = KataLonjaTests;
+			productName = KataLonjaTests;
+			productReference = CD6A00FD15D03B33005BB326 /* KataLonjaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6A00D315D03B33005BB326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Juan Manuel Gómez Ramos";
+			};
+			buildConfigurationList = CD6A00D615D03B33005BB326 /* Build configuration list for PBXProject "KataLonja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD6A00D115D03B33005BB326;
+			productRefGroup = CD6A00DD15D03B33005BB326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6A00DB15D03B33005BB326 /* KataLonja */,
+				CD6A00FC15D03B33005BB326 /* KataLonjaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6A00DA15D03B33005BB326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A00EB15D03B33005BB326 /* InfoPlist.strings in Resources */,
+				CD6A00F115D03B33005BB326 /* Credits.rtf in Resources */,
+				CD6A00F715D03B33005BB326 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A00FA15D03B33005BB326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A010815D03B33005BB326 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD6A00FB15D03B33005BB326 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6A00D815D03B33005BB326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A00ED15D03B33005BB326 /* main.m in Sources */,
+				CD6A00F415D03B33005BB326 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A00F815D03B33005BB326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A010B15D03B33005BB326 /* KataLonjaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6A010215D03B33005BB326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6A00DB15D03B33005BB326 /* KataLonja */;
+			targetProxy = CD6A010115D03B33005BB326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6A00E915D03B33005BB326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6A00EA15D03B33005BB326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD6A00EF15D03B33005BB326 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6A00F015D03B33005BB326 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD6A00F515D03B33005BB326 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6A00F615D03B33005BB326 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD6A010615D03B33005BB326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6A010715D03B33005BB326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6A010C15D03B33005BB326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD6A010D15D03B33005BB326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD6A010F15D03B33005BB326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KataLonja/KataLonja-Prefix.pch";
+				INFOPLIST_FILE = "KataLonja/KataLonja-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD6A011015D03B33005BB326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KataLonja/KataLonja-Prefix.pch";
+				INFOPLIST_FILE = "KataLonja/KataLonja-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD6A011215D03B33005BB326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KataLonja.app/Contents/MacOS/KataLonja";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KataLonja/KataLonja-Prefix.pch";
+				INFOPLIST_FILE = "KataLonjaTests/KataLonjaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD6A011315D03B33005BB326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KataLonja.app/Contents/MacOS/KataLonja";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KataLonja/KataLonja-Prefix.pch";
+				INFOPLIST_FILE = "KataLonjaTests/KataLonjaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6A00D615D03B33005BB326 /* Build configuration list for PBXProject "KataLonja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A010C15D03B33005BB326 /* Debug */,
+				CD6A010D15D03B33005BB326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6A010E15D03B33005BB326 /* Build configuration list for PBXNativeTarget "KataLonja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A010F15D03B33005BB326 /* Debug */,
+				CD6A011015D03B33005BB326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD6A011115D03B33005BB326 /* Build configuration list for PBXNativeTarget "KataLonjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A011215D03B33005BB326 /* Debug */,
+				CD6A011315D03B33005BB326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6A00D315D03B33005BB326 /* Project object */;
+}
