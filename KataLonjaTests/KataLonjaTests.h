@@ -10,4 +10,5 @@
 
 @interface KataLonjaTests : SenTestCase
 
+
 @end
